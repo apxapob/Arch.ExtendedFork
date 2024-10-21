@@ -33,7 +33,11 @@
 
         <UnityPublish>true</UnityPublish>
     </PropertyGroup>
-
+    
+	<PropertyGroup>
+      <NoWarn>CS1572;CS1573;CS1574;CS1591;CS8619;IDE0025;IDE0032;IDE2003;IDE0003;nullable</NoWarn>
+    </PropertyGroup>
+	
     <ItemGroup>
       <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
     </ItemGroup>

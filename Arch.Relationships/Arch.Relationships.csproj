@@ -30,6 +30,10 @@
       <DefineConstants>TRACE;EVENTS</DefineConstants>
     </PropertyGroup>
 
+    <PropertyGroup>
+      <NoWarn>CS1572;CS1573;CS1574;CS1591;CS1723;CS8619;IDE0025;IDE0032;IDE2003;IDE0003;RS1024;CS1711;nullable</NoWarn>
+    </PropertyGroup>
+  
     <ItemGroup>
       <PackageReference Include="Arch" Version="1.2.6.6-alpha" />
     </ItemGroup>
